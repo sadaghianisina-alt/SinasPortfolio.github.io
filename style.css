@@ -75,6 +75,6 @@ body {
 
 
 #Image {
-  width: 26px; 
-  height: 260px;
+  width: 200px; 
+  height: auto;
 }
