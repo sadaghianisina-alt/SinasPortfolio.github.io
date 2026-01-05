@@ -1,4 +1,86 @@
-h1 {
-    color: (#00246B);
-    text-align: center;
+/* Page basics */
+body {
+  margin: 0;
+  background: #efefef;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+}
+
+/* Top nav bar like your sketch */
+.top-nav {
+  max-width: 980px;
+  margin: 24px auto 0 auto;
+  border: 2px solid #555;
+  background: #d8d8d8;
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  border-right: 2px solid #777;
+  font-weight: 600;
+}
+
+.nav-item:last-child {
+  border-right: none;
+}
+
+.nav-item:hover {
+  background: #cfcfcf;
+}
+
+.nav-item.active {
+  background: #c5c5c5;
+}
+
+/* Main content area */
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 18px 40px;
+}
+
+.welcome {
+  margin: 18px 0 6px;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* The big rounded rectangle */
+.panel {
+  background: #c9a9a9;
+  border: 2px solid #555;
+  border-radius: 28px;
+  padding: 26px;
+  display: flex;
+  gap: 26px;
+  align-items: stretch;
+  min-height: 260px;
+}
+
+.about {
+  flex: 1;
+  font-size: 18px;
+}
+
+/* Photo placeholder box */
+.photo {
+  width: 260px;
+  background: #efefef;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  letter-spacing: 0.5px;
 }
