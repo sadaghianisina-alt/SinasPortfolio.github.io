@@ -75,6 +75,6 @@ body {
 
 
 .Image {
-  width: 50%; 
-  height: Auto;
+  width: 100px; 
+  height: 400px;
 }
